@@ -1,27 +1,66 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+body {
+  font-family: "Josefin Slab", serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.App {
+    background-color: #fdfdfd;
+    margin: 0;
+    position:relative;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 20vh;
+  display: block;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.beer {
+  float: left;
+  max-width: 30%;
+  max-height: 100%;
+  display: inline-block;
+}
+.heading {
+  float: right;
+  font-size: calc(22px + 2vmin);
+  font-weight: bold;
+  padding-right: 20px;
+}
+.navigation {
+  border: 0.5px solid grey;
+  cursor: pointer;
+  padding: 16px 46.3px;
+  font-size: 18px;
+  background-color: #555555;
+  color: white;
+}
+.info {
+  display: block;
+  max-height: 80vh;
 }
 
+.info .fair {
+  float: right;
+  vertical-align: middle;
+  width: 40%;
+  margin-top: 20px;
+}
+.info .about {
+  float: left;
+  vertical-align: middle;
+  font-size: 18px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
