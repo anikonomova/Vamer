@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/*@import "node_modules/react-image-gallery/styles/css/image-gallery.css";
+*/
+
 
 html {
     box-sizing: border-box;
@@ -22,45 +26,146 @@ body {
   background-color: #282c34;
   height: 20vh;
   display: block;
+  font-family: 'Orbitron', sans-serif;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+ .mail {
+  float: center;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
 .beer {
   float: left;
   max-width: 30%;
   max-height: 100%;
   display: inline-block;
 }
+
 .heading {
   float: right;
   font-size: calc(22px + 2vmin);
   font-weight: bold;
   padding-right: 20px;
 }
+
+/* ====================== Menu ====================== */
+
 .navigation {
   border: 0.5px solid grey;
   cursor: pointer;
   padding: 16px 46.3px;
   font-size: 18px;
-  background-color: #555555;
+  background-color: #050959;
   color: white;
 }
+
+/* ====================== Info/ home ====================== */
+
 .info {
-  display: block;
-  max-height: 80vh;
+  width: 100%;
 }
 
-.info .fair {
+.fair {
   float: right;
-  vertical-align: middle;
   width: 40%;
-  margin-top: 20px;
+  height: 348px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
-.info .about {
+.list {
   float: left;
-  vertical-align: middle;
-  font-size: 18px;
+  font-size: 16px;
+  width: 55%;
+  padding-left: 20px;
 }
+.service {
+  font-size: 16px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+/* ====================== Products ====================== */
+
+.products {
+}
+.categories {
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.categoriesList {
+  width: 250px;
+}
+.productType {
+  width: 15em;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #e6ecf7;
+  height: 28vh;
+  padding: 20px;
+  margin: 2.2em;
+  cursor: pointer;
+}
+
+/* ====================== Gallery ====================== */
+
+.allPics {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.gallery {
+  width: 27%;
+  height: 15em;
+  padding: 2em;
+}
+
+/* ====================== Contact ====================== */
+.contactUs {
+margin-right: auto;
+margin-left: auto;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+height: 100%;
+}
+
+.contactUs #map-container {
+  width: 50%;
+  left: 50%;
+}
+.contactUs #map {
+  width: 100%;
+  left: 50%;
+}
+.contactUs .address {
+  padding-top: 80px;
+  width: 50%;
+  height: 100%;
+  max-width: 560px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+/* ====================== Footer ====================== */
+
+#footer {
+  background-color: black;
+  color: white;
+  font-size: 8pt;
+  letter-spacing: 1px;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
