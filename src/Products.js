@@ -6,12 +6,12 @@ class Products extends Component {
     return (
       <div className='products'>
       <ul className='categories'>
-      <li><button className='productType'>Бира</button></li>
-      <li><button className='productType'>Вино</button></li>
-      <li><button className='productType'>Газирани напитки</button></li>
-      <li><button className='productType'>Сокове</button></li>
-      <li><button className='productType'>Вода</button></li>
-      <li><button className='productType'>Резервни части</button></li>
+      <li className='categoriesList'><button className='productType'>Бира</button></li>
+      <li className='categoriesList'><button className='productType'>Вино</button></li>
+      <li className='categoriesList'><button className='productType'>Газирани напитки</button></li>
+      <li className='categoriesList'><button className='productType'>Сокове</button></li>
+      <li className='categoriesList'><button className='productType'>Вода</button></li>
+      <li className='categoriesList'><button className='productType'>Резервни части</button></li>
 
       </ul>Products</div>
     )

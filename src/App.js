@@ -25,15 +25,14 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className="container">
+        <div className='box header'>
         <span className='mail'>info@vamer.bg тел. +35932624146</span>
         <img className='beer' src={bira} alt='Bira'></img>
-          <p className='heading'>VameR</p>
-        </header>
-        <div id='.root'>
-        <div id= 'menu'>
-
+          <header className='heading'>VameR</header>
+        </div>
+       <div id= 'menu' className='box menu'>
+        <div className="nav">
         <Link to="/home"><button className='navigation'>Начало</button></Link>
         <Link to="/about"><button className='navigation'>За нас</button></Link>
         <Link to="/products"><button className='navigation'>Продукти</button></Link>
@@ -42,8 +41,9 @@ class App extends Component {
         <Link to="/news"><button className='navigation'>Новини</button></Link>
         <Link to="/contact"><button className='navigation'>Контакт</button></Link>
         </div>
+        </div>
 
-        <main>
+        <div className='box main'>
         <Route exact path="/" render={() => (
         <Info/>
       )}
@@ -69,11 +69,12 @@ class App extends Component {
       <Route path="/contact" render={() => (
         <Contact />
       )} />
-      </main>
-       </div>
+      </div>
+      <div className='box footer'>
           <footer id="footer" tabIndex="0">
             <a href="/" aria-label="Home-page" tabIndex="0"><strong>Вамер ООД</strong></a> (c) Всички права запазени.
            </footer>
+           </div>
     </div>
     );
   }
