@@ -1,9 +1,9 @@
 {
   "main.css": "/Vamer/static/css/main.ad29b6b5.chunk.css",
-  "main.js": "/Vamer/static/js/main.94e80083.chunk.js",
-  "main.js.map": "/Vamer/static/js/main.94e80083.chunk.js.map",
-  "static/js/1.000367a1.chunk.js": "/Vamer/static/js/1.000367a1.chunk.js",
-  "static/js/1.000367a1.chunk.js.map": "/Vamer/static/js/1.000367a1.chunk.js.map",
+  "main.js": "/Vamer/static/js/main.2432be51.chunk.js",
+  "main.js.map": "/Vamer/static/js/main.2432be51.chunk.js.map",
+  "static/js/1.4893fd06.chunk.js": "/Vamer/static/js/1.4893fd06.chunk.js",
+  "static/js/1.4893fd06.chunk.js.map": "/Vamer/static/js/1.4893fd06.chunk.js.map",
   "runtime~main.js": "/Vamer/static/js/runtime~main.5490378a.js",
   "runtime~main.js.map": "/Vamer/static/js/runtime~main.5490378a.js.map",
   "static/media/beerkeg.jpg": "/Vamer/static/media/beerkeg.054cf566.jpg",
@@ -19,6 +19,6 @@
   "static/media/blackkeg.jpg": "/Vamer/static/media/blackkeg.8f0d3daf.jpg",
   "static/css/main.ad29b6b5.chunk.css.map": "/Vamer/static/css/main.ad29b6b5.chunk.css.map",
   "index.html": "/Vamer/index.html",
-  "precache-manifest.5802fe3cba9ec539bf821e2534ef5a04.js": "/Vamer/precache-manifest.5802fe3cba9ec539bf821e2534ef5a04.js",
+  "precache-manifest.3afc21d45f85a2f975d41401d9f1c6b2.js": "/Vamer/precache-manifest.3afc21d45f85a2f975d41401d9f1c6b2.js",
   "service-worker.js": "/Vamer/service-worker.js"
 }

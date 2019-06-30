@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/Vamer/static/media/beercolumn.49f85c55.jpg"
   },
   {
-    "revision": "94e80083553dd2ba01b9",
+    "revision": "2432be517ccbe82a6686",
     "url": "/Vamer/static/css/main.ad29b6b5.chunk.css"
   },
   {
-    "revision": "000367a18bccf118040a",
-    "url": "/Vamer/static/js/1.000367a1.chunk.js"
+    "revision": "4893fd069acd4662fa9a",
+    "url": "/Vamer/static/js/1.4893fd06.chunk.js"
   },
   {
     "revision": "5490378af67fcad17f59",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Vamer/static/media/vamer.e574be22.jpg"
   },
   {
-    "revision": "94e80083553dd2ba01b9",
-    "url": "/Vamer/static/js/main.94e80083.chunk.js"
+    "revision": "2432be517ccbe82a6686",
+    "url": "/Vamer/static/js/main.2432be51.chunk.js"
   },
   {
     "revision": "f1c4b6cdba88f54361786ef55ec63f7c",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/Vamer/static/media/bira.b31535ef.jpg"
   },
   {
-    "revision": "0fe3341628504faed0669b1d0476d27e",
+    "revision": "50c41a46700766f61da35185a5b4d9af",
     "url": "/Vamer/index.html"
   }
 ];
