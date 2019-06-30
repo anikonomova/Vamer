@@ -20,27 +20,31 @@ class App extends Component {
     //  languages: [
     //    { name: "English", code: "en" },
     //    { name: "Bulgarian", code: "bg" }
-    //  ]
+    //  ]<img className='beer' src={bira} alt='Bira'></img>
     //});
   }
+
+  componentDidMount() {
+        console.log("[App componentDidMount]");
+    }
+
   render() {
     return (
       <div className="container">
         <div className='box header'>
-        <span className='mail'>info@vamer.bg тел. +35932624146</span>
-        <img className='beer' src={bira} alt='Bira'></img>
+        <section className='mail'>info@vamer.bg тел. +35932624146</section>
           <header className='heading'>VameR</header>
         </div>
        <div id= 'menu' className='box menu'>
-        <div className="nav">
-        <Link to="/home"><button className='navigation'>Начало</button></Link>
-        <Link to="/about"><button className='navigation'>За нас</button></Link>
-        <Link to="/products"><button className='navigation'>Продукти</button></Link>
-        <Link to="/whatsnew"><button className='navigation'>Новости</button></Link>
-        <Link to="/gallery"><button className='navigation'>Галерия</button></Link>
-        <Link to="/news"><button className='navigation'>Новини</button></Link>
-        <Link to="/contact"><button className='navigation'>Контакт</button></Link>
-        </div>
+        <ul className="nav">
+        <li className='navigation'><Link to="/home">Начало</Link></li>
+        <li className='navigation'><Link to="/about">За нас</Link></li>
+        <li className='navigation'><Link to="/products">Продукти</Link></li>
+        <li className='navigation'><Link to="/whatsnew">Новости</Link></li>
+        <li className='navigation'><Link to="/gallery">Галерия</Link></li>
+        <li className='navigation'><Link to="/news">Новини</Link></li>
+        <li className='navigation'><Link to="/contact">Контакт</Link></li>
+        </ul>
         </div>
 
         <div className='box main'>

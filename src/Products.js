@@ -1,19 +1,49 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './App.css';
+import Beers from './Beers';
+import Wines from './Wines';
+import Sodas from './Sodas';
+import Juices from './Juices';
+import Water from './Water';
+import Parts from './Parts';
+
+
 
 class Products extends Component {
   render() {
     return (
       <div className='products'>
       <ul className='categories'>
-      <li className='categoriesList'><button className='productType'>Бира</button></li>
-      <li className='categoriesList'><button className='productType'>Вино</button></li>
-      <li className='categoriesList'><button className='productType'>Газирани напитки</button></li>
-      <li className='categoriesList'><button className='productType'>Сокове</button></li>
-      <li className='categoriesList'><button className='productType'>Вода</button></li>
-      <li className='categoriesList'><button className='productType'>Резервни части</button></li>
-
-      </ul>Products</div>
+      <li className='categories-list'><Link to='/products/beers' className='productType'>Бира</Link></li>
+      <li className='categories-list'><Link to='/products/wines' className='productType'>Вино</Link></li>
+      <li className='categories-list'><Link to='/products/sodas' className='productType'>Газирани напитки</Link></li>
+      <li className='categories-list'><Link to='/products/juices'className='productType'>Сокове</Link></li>
+      <li className='categories-list'><Link to='/products/water'className='productType'>Вода</Link></li>
+      <li className='categories-list'><Link to='/products/parts' className='productType'>Резервни части</Link></li>
+      </ul>
+      <div className='product-items'>
+      <Route exact path="/products/beers" render={() => (
+      <Beers />
+      )} />
+      <Route path="/products/wines" render={() => (
+        <Wines />
+      )} />
+      <Route path="/products/sodas" render={() => (
+        <Sodas />
+      )} />
+      <Route path="/products/juices" render={() => (
+        <Juices />
+      )} />
+      <Route path="/products/water" render={() => (
+        <Water />
+      )} />
+      <Route path="/parts" render={() => (
+        <Parts />
+      )} />
+      </div>
+      </div>
     )
   }
 }
