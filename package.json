@@ -16,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -33,5 +35,6 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "react-localize-redux": "^3.5.1"
-  }
+  },
+  "homepage":"https://anikonomova.github.io/Vamer"
 }
