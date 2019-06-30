@@ -28,7 +28,7 @@ class Contact extends Component {
           containerElement={ <div className='map' style={{ height: `100vh`, width: `100%` }} /> }
           mapElement={ <div style={{ height: `100vh`, width: `100%`}} /> }
           loadingElement={<div className='loadingEl' style={{ height: `100vh` }} />}
-          googleMapURL ='https://maps.googleapis.com/maps/api//js?key=AIzaSyCMGeelHXsg0DHtykZeMFwRCQAmbc7M71c&v=3.exp&libraries=geometry,drawing,places&callback=loadMap'
+          googleMapURL ='https://maps.googleapis.com/maps/api/js?key=AIzaSyCMGeelHXsg0DHtykZeMFwRCQAmbc7M71c&v=3.exp&libraries=geometry,drawing,places&callback=loadMap'
           />)
         }
         { (!navigator.onLine) &&

@@ -10,7 +10,7 @@ import Whatsnew from './Whatsnew';
 import Gallery from './Gallery';
 import News from './News';
 import bira from './Images/bira.jpg';
-
+import { HashRouter } from 'react-router-dom'
 
 class App extends Component {
   constructor(props) {
@@ -30,6 +30,7 @@ class App extends Component {
 
   render() {
     return (
+      <HashRouter basename="/">
       <div className="container">
         <div className='box header'>
         <section className='mail'>info@vamer.bg тел. +35932624146</section>
@@ -80,6 +81,8 @@ class App extends Component {
            </footer>
            </div>
     </div>
+    </HashRouter>
+
     );
   }
 }

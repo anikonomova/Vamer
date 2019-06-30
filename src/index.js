@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { LocalizeProvider } from "react-localize-redux";
 import './index.css';
 import App from './App';
@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <LocalizeProvider>
-  <BrowserRouter><App /></BrowserRouter>
+  <HashRouter><App /></HashRouter>
   </LocalizeProvider>,
    document.getElementById('root'));
 
