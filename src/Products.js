@@ -39,10 +39,11 @@ class Products extends Component {
       <Route path="/products/water" render={() => (
         <Water />
       )} />
-      <Route path="/parts" render={() => (
+      <Route path="/products/parts" render={() => (
         <Parts />
       )} />
       </div>
+
       </div>
     )
   }

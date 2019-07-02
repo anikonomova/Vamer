@@ -17,27 +17,27 @@ class Gallery extends Component {
       <Slider />
       </div>
       <div className='grid-container'>
-      <div className='gird-item'>
+      <div className='grid-item'>
       <img className='image' src={beerkeg} alt='Vamer fair'></img>
       <h2 className='description'>Това е снимка</h2>
       </div>
-      <div className='gird-item'>
+      <div className='grid-item'>
       <img className='image' src={keg} alt='Vamer fair'></img>
       <h2 className='description'>Това е снимка</h2>
       </div>
-      <div className='gird-item'>
+      <div className='grid-item'>
       <img className='image' src={winekeg} alt='Vamer fair'></img>
       <h2 className='description'>Това е снимка</h2>
       </div>
-      <div className='gird-item'>
+      <div className='grid-item'>
       <img className='image' src={beerkeg} alt='Vamer fair'></img>
       <h2 className='description'>Това е снимка</h2>
       </div>
-      <div className='gird-item'>
+      <div className='grid-item'>
       <img className='image' src={keg} alt='Vamer fair'></img>
       <h2 className='description'>Това е снимка</h2>
       </div>
-      <div className='gird-item'>
+      <div className='grid-item'>
       <img className='image' src={winekeg} alt='Vamer fair'></img>
       <h2 className='description'>Това е снимка</h2>
       </div>

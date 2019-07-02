@@ -32,21 +32,22 @@ class App extends Component {
     return (
       <HashRouter basename="/">
       <div className="container">
+
         <div className='box header'>
         <section className='mail'>info@vamer.bg тел. +35932624146</section>
           <header className='heading'>VameR</header>
         </div>
-       <div id= 'menu' className='box menu'>
-        <ul className="nav">
-        <li className='navigation'><Link to="/home">Начало</Link></li>
-        <li className='navigation'><Link to="/about">За нас</Link></li>
-        <li className='navigation'><Link to="/products">Продукти</Link></li>
-        <li className='navigation'><Link to="/whatsnew">Новости</Link></li>
-        <li className='navigation'><Link to="/gallery">Галерия</Link></li>
-        <li className='navigation'><Link to="/news">Новини</Link></li>
-        <li className='navigation'><Link to="/contact">Контакт</Link></li>
-        </ul>
-        </div>
+        <div id= 'menu' className='box menu'>
+         <ul className="nav">
+         <li className='navigation'><Link to="/home" className='nav-link'>Начало</Link></li>
+         <li className='navigation'><Link to="/about" className='nav-link'>За нас</Link></li>
+         <li className='navigation'><Link to="/products" className='nav-link'>Продукти</Link></li>
+         <li className='navigation'><Link to="/whatsnew" className='nav-link'>Новости</Link></li>
+         <li className='navigation'><Link to="/gallery" className='nav-link'>Галерия</Link></li>
+         <li className='navigation'><Link to="/news" className='nav-link'>Новини</Link></li>
+         <li className='navigation'><Link to="/contact" className='nav-link'>Контакт</Link></li>
+         </ul>
+         </div>
 
         <div className='box main'>
         <Route exact path="/" render={() => (
@@ -76,8 +77,8 @@ class App extends Component {
       )} />
       </div>
       <div className='box footer'>
-          <footer id="footer" tabIndex="0">
-            <a href="/" aria-label="Home-page" tabIndex="0"><strong>Вамер ООД</strong></a> (c) Всички права запазени.
+          <footer id="footer-text" tabIndex="0">
+            <a href="/" className='footer-link' aria-label="Home-page" tabIndex="0"><strong>Вамер ООД</strong></a> (c) Всички права запазени.
            </footer>
            </div>
     </div>
