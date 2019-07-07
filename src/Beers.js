@@ -12,30 +12,31 @@ class Beers extends Component {
   render() {
     return (
       <div class='adress'>
+      <h2 className='type'>Бира</h2>
       <div className='grid-container'>
       <div className='grid-item'>
       <img className='image' src={Beercolumn} alt='Colona for beer'></img>
-      <h2 className='description'>Колона за бира</h2>
+      <h3 className='description'>Колона за бира</h3>
       </div>
       <div className='grid-item'>
       <img className='image' src={Beercolumn2} alt='Colona for beer'></img>
-      <h2 className='description'>Колона за бира</h2>
+      <h3 className='description'>Колона за бира</h3>
       </div>
       <div className='grid-item'>
       <img className='image' src={Colonabira} alt='Colona for beer'></img>
-      <h2 className='description'>Колона за бира</h2>
+      <h3 className='description'>Колона за бира</h3>
       </div>
       <div className='grid-item'>
       <img className='image' src={Beermobile} alt='Mobile table'></img>
-      <h2 className='description'>Мобилен шкаф</h2>
+      <h3 className='description'>Мобилен шкаф</h3>
       </div>
       <div className='grid-item'>
       <img className='image' src={Ohladitelbira} alt='Beer cooler'></img>
-      <h2 className='description'>Охладител за бира</h2>
+      <h3 className='description'>Охладител за бира</h3>
       </div>
       <div className='grid-item'>
       <img className='image' src={Ohladitel2} alt='Beer cooler'></img>
-      <h2 className='description'>Охладител за бира</h2>
+      <h3 className='description'>Охладител за бира</h3>
       </div></div>
       </div>
     )

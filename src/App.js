@@ -40,11 +40,9 @@ class App extends Component {
         <div id= 'menu' className='box menu'>
          <ul className="nav">
          <li className='navigation'><Link to="/home" className='nav-link'>Начало</Link></li>
-         <li className='navigation'><Link to="/about" className='nav-link'>За нас</Link></li>
          <li className='navigation'><Link to="/products" className='nav-link'>Продукти</Link></li>
          <li className='navigation'><Link to="/whatsnew" className='nav-link'>Новости</Link></li>
          <li className='navigation'><Link to="/gallery" className='nav-link'>Галерия</Link></li>
-         <li className='navigation'><Link to="/news" className='nav-link'>Новини</Link></li>
          <li className='navigation'><Link to="/contact" className='nav-link'>Контакт</Link></li>
          </ul>
          </div>

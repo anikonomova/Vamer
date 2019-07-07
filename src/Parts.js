@@ -18,6 +18,8 @@ class Parts extends Component {
   render() {
     return (
       <div class='adress'>
+      <h2 className='type'>Резервни части</h2>
+
       <div className='grid-container'>
       <div className='grid-item'>
       <img className='image' src={CO2kit} alt='CO2 kit'></img>

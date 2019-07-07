@@ -12,6 +12,7 @@ class Wines extends Component {
   render() {
     return (
       <div class='adress'>
+      <h2 className='type'>За вино</h2>
       <div className='grid-container'>
       <div className='grid-item'>
       <img className='image' src={Winecolone} alt='Colona for wine'></img>

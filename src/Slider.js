@@ -27,11 +27,13 @@ class Slider extends React.Component {
 
     render() {
       const images = [
-          { url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Area_code_FL.svg/400px-Area_code_FL.svg.png" },
-          { url: 'Images/blackkeg.jpg' },
-          { url: "Images/blackkeg.jpg" },
-          { url: "Images/blackkeg.jpg" },
-          { url: "Images/blackkeg.jpg" },
+          { url: "/Gallery/blackkeg.jpg" },
+          { url: "/Gallery/bottlewine.jpg" },
+          { url: "/Gallery/something.jpg" },
+          { url: "/Gallery/3things.jpg" },
+          { url: "/Gallery/beerkeg.jpg" },
+          { url: "/Gallery/something.jpg" },
+
       ];
       const toggleOptions = ["useGPURender", "showNavs", "showBullets"];
 

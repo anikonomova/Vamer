@@ -4,7 +4,9 @@ import './App.css';
 class Water extends Component {
   render() {
     return (
-      <div class='adress'>water</div>
+      <div class='adress'>
+      <h2 className='title'>Вода</h2>
+</div>
     )
   }
 }

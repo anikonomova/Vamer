@@ -11,7 +11,7 @@ class Info extends Component {
       <h1 className='title'>За нас:</h1>
       <div className='about'>
       <div className='list'>
-      <p className='text'>Фирма Вамер е българска компания в областта на изграждането на системи за наливни<br></br>
+      <p className='text'>Фирма Вамер е българска компания в областта на изграждането на системи за наливни
       напитки – газирани, негазирани , алкохолни , безалкохолни – с охлаждане или без охлаждане.</p>
 <ul className='list-drinks'>
 <li>бира</li>
