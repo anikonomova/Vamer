@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Vamer/static/media/winecoolerforfass.574d4f63.jpg"
   },
   {
-    "revision": "a387d8d9f086a9afeb41",
+    "revision": "6b5f9ffb918b07e56acb",
     "url": "/Vamer/static/css/main.8a16a499.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/Vamer/static/media/winecooler2.4a6bea10.jpg"
   },
   {
-    "revision": "a387d8d9f086a9afeb41",
-    "url": "/Vamer/static/js/main.a387d8d9.chunk.js"
+    "revision": "6b5f9ffb918b07e56acb",
+    "url": "/Vamer/static/js/main.6b5f9ffb.chunk.js"
   },
   {
     "revision": "d82e2011e50fab50e4a0629e3d1d20c0",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Vamer/static/media/bira.b31535ef.jpg"
   },
   {
-    "revision": "1d69c9705a50f8a36c39c54f31595082",
+    "revision": "dcb975f9d6b1a4e67c3ceec8fd57085c",
     "url": "/Vamer/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
   "main.css": "/Vamer/static/css/main.8a16a499.chunk.css",
-  "main.js": "/Vamer/static/js/main.a387d8d9.chunk.js",
-  "main.js.map": "/Vamer/static/js/main.a387d8d9.chunk.js.map",
+  "main.js": "/Vamer/static/js/main.6b5f9ffb.chunk.js",
+  "main.js.map": "/Vamer/static/js/main.6b5f9ffb.chunk.js.map",
   "static/js/1.bdd12d91.chunk.js": "/Vamer/static/js/1.bdd12d91.chunk.js",
   "static/js/1.bdd12d91.chunk.js.map": "/Vamer/static/js/1.bdd12d91.chunk.js.map",
   "runtime~main.js": "/Vamer/static/js/runtime~main.5490378a.js",
@@ -42,6 +42,6 @@
   "static/media/bira.jpg": "/Vamer/static/media/bira.b31535ef.jpg",
   "static/css/main.8a16a499.chunk.css.map": "/Vamer/static/css/main.8a16a499.chunk.css.map",
   "index.html": "/Vamer/index.html",
-  "precache-manifest.97db7bf81e2c2e14a3c534dc885d69c8.js": "/Vamer/precache-manifest.97db7bf81e2c2e14a3c534dc885d69c8.js",
+  "precache-manifest.b5c2059772ef7387090829e6ef1bd15f.js": "/Vamer/precache-manifest.b5c2059772ef7387090829e6ef1bd15f.js",
   "service-worker.js": "/Vamer/service-worker.js"
 }

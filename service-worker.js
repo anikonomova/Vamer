@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/Vamer/precache-manifest.97db7bf81e2c2e14a3c534dc885d69c8.js"
+  "/Vamer/precache-manifest.b5c2059772ef7387090829e6ef1bd15f.js"
 );
 
 workbox.clientsClaim();
