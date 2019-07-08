@@ -27,8 +27,8 @@ class Slider extends React.Component {
 
     render() {
       const images = [
-          { url: "/Gallery/blackkeg.jpg" },
-          { url: "/Gallery/bottlewine.jpg" },
+          { url: "%PUBLIC_URL%/Gallery/blackkeg.jpg" },
+          { url: "./Gallery/bottlewine.jpg" },
           { url: "/Gallery/something.jpg" },
           { url: "/Gallery/3things.jpg" },
           { url: "/Gallery/beerkeg.jpg" },
